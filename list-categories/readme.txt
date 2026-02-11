@@ -3,7 +3,7 @@ Contributors: fernandobt
 Donate Link: http://picandocodigo.net/programacion/wordpress/list-category-posts-wordpress-plugin-english/#support
 Tags: list, categories, cms
 Requires at least: 3.3
-Tested up to: 6.5.3
+Tested up to: 6.8.1
 Stable tag: 0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -67,6 +67,14 @@ li.cat-item-7 { ... }  /* category ID #7, etc */
 li.current-cat { ... }
 li.current-cat-parent { ... }
 ul.children { ... }
+`
+
+For instance, you can remove the bullet points next to each category with:
+
+`
+.cat-item {
+  list-style-type: none
+}
 `
 
 ==Show categories list in columns==
